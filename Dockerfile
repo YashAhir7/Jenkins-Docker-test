@@ -4,6 +4,8 @@ FROM python:2.7
 RUN mkdir /code
 # Copy code from src to docker image /code path 
 ADD src/app.py  /code
+# copy requirements.txt for install library 
+COPY requirements.txt /code
 # define work directory /code in docker image 
 WORKDIR /code
 # install require by python requirement files
