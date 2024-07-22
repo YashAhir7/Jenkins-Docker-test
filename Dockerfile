@@ -1,4 +1,4 @@
-# Docker Image Base Imgae 
+# Docker Image Base Imgaes
 FROM python:2.7
 # create a code directory in image 
 RUN mkdir /code
