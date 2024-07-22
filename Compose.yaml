@@ -1,0 +1,11 @@
+version: '3.7'
+services: 
+  pythonapp: 
+    container_name: Flaskapp 
+    image: prateekkumawat/mypy:latest
+    ports:
+     - '5000:5000'
+  redisapp: 
+    container_name: redisapp
+    image: redis
+    
