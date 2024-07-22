@@ -6,7 +6,7 @@ services:
     image: prateekkumawat/mypy:latest
     ports:
      - '5000:5000'
-  redisapp: 
-    container_name: redisapp
+  redis: 
+    container_name: redis
     image: redis
 
