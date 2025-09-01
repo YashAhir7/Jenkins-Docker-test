@@ -1,11 +1,10 @@
-# python app compose files
 version: '3.7'
-services: 
-  pythonapp: 
-    container_name: Flaskapp 
-    image: prateekkumawat/mypy:latest
+services:
+  pythonapp:
+    container_name: Flaskapp
+    image: yashgal/mypy:latest
     ports:
-     - '5000:5000'
+     - '5000-5000'
   redis: 
     container_name: redis
     image: redis
